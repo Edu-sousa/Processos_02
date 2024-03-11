@@ -36,7 +36,7 @@ public class Main {
 				break;
 
 			default:
-				JOptionPane.showMessageDialog(null, "Opção invalida");
+				JOptionPane.showMessageDialog(null, "Opï¿½ï¿½o invalida");
 
 			}
 		}

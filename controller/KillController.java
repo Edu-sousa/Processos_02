@@ -21,7 +21,7 @@ public class KillController {
 		if (os.contains("Windows"))
 			process = "TASKLIST /FO TABLE";
 		else if (os.contains("Linux"))
-			process = "ps-ef";
+			process = "ps -ef";
 
 		try {
 			Process p = Runtime.getRuntime().exec(process);
